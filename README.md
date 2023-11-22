@@ -1,5 +1,8 @@
 # torchtree-scipy 
 [![Testing](https://github.com/4ment/torchtree-scipy/actions/workflows/python-package.yml/badge.svg)](https://github.com/4ment/torchtree-scipy/actions/workflows/python-package.yml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![PyPI](https://img.shields.io/pypi/v/torchtree-scipy)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/torchtree-scipy)
 
 
 ## About torchtree-scypi
@@ -35,7 +38,7 @@ The `torchtree-scipy` plugin adds these arguments to the torchtree CLI:
 ```bash
 torchtree-cli advi --help
   ...
-  --scipy_gamma_site    use the GammaSiteModel implemented with scipy
+  --scipy_gamma_site    use the GammaSiteModel implemented with SciPy
 ```
 
 ## Features

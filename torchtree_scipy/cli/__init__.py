@@ -7,7 +7,7 @@ class SciPy(Plugin):
             parser.add_argument(
                 '--scipy_gamma_site',
                 action="store_true",
-                help="""use the GammaSiteModel implemented with scipy""",
+                help="""use the GammaSiteModel implemented with SciPy""",
             )
 
     def process_tree_likelihood(self, arg, json_tree_likelihood):
